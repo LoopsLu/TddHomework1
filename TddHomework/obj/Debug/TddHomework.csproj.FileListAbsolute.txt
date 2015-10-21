@@ -1,0 +1,6 @@
+c:\users\pslu\documents\visual studio 2013\Projects\TddHomework1\TddHomework\bin\Debug\TddHomework.dll
+c:\users\pslu\documents\visual studio 2013\Projects\TddHomework1\TddHomework\bin\Debug\TddHomework.pdb
+c:\users\pslu\documents\visual studio 2013\Projects\TddHomework1\TddHomework\bin\Debug\ExpectedObjects.dll
+c:\users\pslu\documents\visual studio 2013\Projects\TddHomework1\TddHomework\obj\Debug\TddHomework.dll
+c:\users\pslu\documents\visual studio 2013\Projects\TddHomework1\TddHomework\obj\Debug\TddHomework.pdb
+c:\users\pslu\documents\visual studio 2013\Projects\TddHomework1\TddHomework\obj\Debug\TddHomework.csprojResolveAssemblyReference.cache
