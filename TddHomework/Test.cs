@@ -78,12 +78,12 @@ namespace MsTestIntroduction
         [TestMethod]
         public void Test_Order_Group_Sum_By_Cost()
         {
-            var orderList = new OrderHelper();
+            var orderHelper = new OrderHelper();
 
             var expected = new[] { 6, 15, 24, 21 };
 
             int productCountLimit = 3;
-            var actual = orderList.GetOrderSum(Orders, "Cost", productCountLimit);
+            var actual = orderHelper.GetOrderSum(Orders, "Cost", productCountLimit);
             
             expected.ToExpectedObject().ShouldEqual(actual.ToArray());
         }
@@ -91,12 +91,12 @@ namespace MsTestIntroduction
         [TestMethod]
         public void Test_Order_Group_Sum_By_Revenue()
         {
-            var orderList = new OrderHelper();
+            var orderHelper = new OrderHelper();
 
             var expected = new[] { 50, 66, 60 };
 
             int productCountLimit = 4;
-            var actual = orderList.GetOrderSum(Orders, "Revenue", productCountLimit);
+            var actual = orderHelper.GetOrderSum(Orders, "Revenue", productCountLimit);
 
             expected.ToExpectedObject().ShouldEqual(actual.ToArray());
         }
